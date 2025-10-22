@@ -1,18 +1,45 @@
 <template>
-  <div id="app">
+  <div id="app relative isolate">
     
-    <div class="bg-white h-screen w-screen">
+    <div class="absolute 
+    text-gray-700
+    flex h-screen w-screen z-10 bg-transparent justify-center">
 
-      <div class="flex flex-col items-center justify-center size-full text-gray-600">
+      <div class="flex flex-col items-center justify-center size-fit
+      self-center relative">
         <div class="size-[240px] text-center">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-full">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 4.875c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 0 1 3.75 9.375v-4.5ZM3.75 14.625c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5a1.125 1.125 0 0 1-1.125-1.125v-4.5ZM13.5 4.875c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 0 1 13.5 9.375v-4.5Z" />
             <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 6.75h.75v.75h-.75v-.75ZM6.75 16.5h.75v.75h-.75v-.75ZM16.5 6.75h.75v.75h-.75v-.75ZM13.5 13.5h.75v.75h-.75v-.75ZM13.5 19.5h.75v.75h-.75v-.75ZM19.5 13.5h.75v.75h-.75v-.75ZM19.5 19.5h.75v.75h-.75v-.75ZM16.5 16.5h.75v.75h-.75v-.75Z" />
           </svg>
         </div>
-        <div class="font-light text-[2rem]">
+        <div class="font-light text-[2rem] rounded-xl px-2 py-1">
           Escanea tu QR
         </div>
+
+        <div class="absolute size-full">
+          <div class="relative size-full bg-red-200/200">
+
+            <div class="left-top  border-t-[8px]  border-s-[8px] size-[35%] border-blue-400 rounded-tl-3xl absolute -left-6 -top-6 animate-breath"></div>
+            <div class="right-top border-t-[8px]  border-e-[8px] size-[35%] border-blue-400 rounded-tr-3xl absolute -right-6 -top-6 animate-breath"></div>
+            
+            <div class="left-bottom  border-b-[8px]  border-s-[8px] size-[35%] border-blue-400 rounded-bl-3xl absolute -bottom-6 -left-6 animate-breath"></div>
+            <div class="left-bottom  border-b-[8px]  border-e-[8px] size-[35%] border-blue-400 rounded-br-3xl absolute -bottom-6 -right-6 animate-breath"></div>
+  
+            <div class="absolute w-[140%] h-[8px] -left-[20%] bg-blue-400 rounded-xl animate-scan"></div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="absolute inset-0 inline-flex flex-row z-0 overflow-hidden">
+      <div class="absolute inset-0 justify-center inline-flex flex-row">
+        <div class="bg-teal-300 opacity-50 blur-[80px] size-[400px] rounded-full relative animate-uno"></div>
+        <div class="bg-blue-300 opacity-50 blur-[80px] size-[400px] rounded-full relative animate-dos"></div>
+        <div class="bg-purple-300 opacity-50 blur-[80px] size-[400px] rounded-full relative animate-tres"></div>
       </div>
     </div>
     
