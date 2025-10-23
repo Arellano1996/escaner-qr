@@ -20,11 +20,11 @@
         <div class="absolute size-full">
           <div class="relative size-full bg-red-200/200">
 
-            <div class="left-top  border-t-[8px]  border-s-[8px] size-[35%] border-blue-400 rounded-tl-3xl absolute -left-6 -top-6 animate-breath"></div>
-            <div class="right-top border-t-[8px]  border-e-[8px] size-[35%] border-blue-400 rounded-tr-3xl absolute -right-6 -top-6 animate-breath"></div>
+            <div class="left-top border-t-[8px] border-s-[8px] size-[35%] border-blue-400 rounded-tl-3xl absolute -left-6 -top-6 animate-breath"></div>
+            <div class="right-top border-t-[8px] border-e-[8px] size-[35%] border-blue-400 rounded-tr-3xl absolute -right-6 -top-6 animate-breath"></div>
             
-            <div class="left-bottom  border-b-[8px]  border-s-[8px] size-[35%] border-blue-400 rounded-bl-3xl absolute -bottom-6 -left-6 animate-breath"></div>
-            <div class="left-bottom  border-b-[8px]  border-e-[8px] size-[35%] border-blue-400 rounded-br-3xl absolute -bottom-6 -right-6 animate-breath"></div>
+            <div class="left-bottom border-b-[8px] border-s-[8px] size-[35%] border-blue-400 rounded-bl-3xl absolute -bottom-6 -left-6 animate-breath"></div>
+            <div class="left-bottom border-b-[8px] border-e-[8px] size-[35%] border-blue-400 rounded-br-3xl absolute -bottom-6 -right-6 animate-breath"></div>
   
             <div class="absolute w-[140%] h-[8px] -left-[20%] bg-blue-400 rounded-xl animate-scan"></div>
 
