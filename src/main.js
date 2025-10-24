@@ -5,6 +5,8 @@ import axios from 'axios'
 // Config de tailwind
 import './assets/tailwind.css'
 
+import './registerServiceWorker'
+
 
 Vue.config.productionTip = false
 Vue.prototype.$http = axios
